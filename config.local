@@ -1,0 +1,23 @@
+export AWS_PROFILE=
+
+export MONGODB_ATLAS_ENABLE_BETA=true
+export MONGODB_ATLAS_PUBLIC_KEY=
+export MONGODB_ATLAS_PRIVATE_KEY=
+
+export TF_VAR_databricks_personal_access_token=
+export TF_VAR_databricks_username=
+
+export TF_VAR_fivetran_api_key=
+export TF_VAR_fivetran_api_secret=
+
+export TF_VAR_git_personal_access_token=
+export TF_VAR_git_username=
+
+export TF_VAR_mongodbatlas_org_id=
+export TF_VAR_mongodbatlas_api_key_id=
+
+export TF_VAR_mongodb_host=
+export TF_VAR_mongodb_username_readwrite=
+export TF_VAR_mongodb_password_readwrite=
+export TF_VAR_mongodb_username_read=
+export TF_VAR_mongodb_password_read=
