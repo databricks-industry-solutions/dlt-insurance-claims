@@ -1,0 +1,117 @@
+[
+  {
+    "name": "claim_no",
+    "type": "string",
+    "alias": "claim_number"
+  },
+  {
+    "name": "policy_no",
+    "type": "string",
+    "alias": "policy_number"
+  },
+  {
+    "name": "claim_datetime",
+    "type": "string"
+  },
+  {
+    "name": "incident",
+    "type": "struct",
+    "fields": [
+      {
+        "name": "date",
+        "data": "string",
+        "alias": "incident_date"
+      },
+      {
+        "name": "severity",
+        "data": "string",
+        "alias": "incident_severity"
+      },
+      {
+        "name": "hour",
+        "data": "integer",
+        "alias": "incident_hour"
+      },
+      {
+        "name": "type",
+        "data": "string",
+        "alias": "incident_type"
+      }
+    ]
+  },
+  {
+    "name": "collision",
+    "type": "struct",
+    "fields": [
+      {
+        "name": "type",
+        "data": "string",
+        "alias": "collision_type"
+      },
+      {
+        "name": "number_of_vehicles_involved",
+        "data": "integer",
+        "alias": "number_of_vehicles_involved"
+      }
+    ]
+  },
+  {
+    "name": "driver",
+    "type": "struct",
+    "fields": [
+      {
+        "name": "age",
+        "data": "float",
+        "alias": "driver_age"
+      },
+      {
+        "name": "insured_relationship",
+        "data": "string",
+        "alias": "driver_relationship_to_insured"
+      },
+      {
+        "name": "license_issue_date",
+        "data": "string",
+        "alias": "driver_license_issue_date"
+      }
+    ]
+  },
+  {
+    "name": "claim_amount",
+    "type": "struct",
+    "fields": [
+      {
+        "name": "total",
+        "data": "float",
+        "alias": "total_claim_amount"
+      },
+      {
+        "name": "injury",
+        "data": "float",
+        "alias": "injury_claim_amount"
+      },
+      {
+        "name": "property",
+        "data": "float",
+        "alias": "property_claim_amount"
+      },
+      {
+        "name": "vehicle",
+        "data": "float",
+        "alias": "vehicle_claim_amount"
+      }
+    ]
+  },
+  {
+    "name": "number_of_witnesses",
+    "type": "integer"
+  },
+  {
+    "name": "suspicious_activity",
+    "type": "boolean"
+  },
+  {
+    "name": "months_as_customer",
+    "type": "integer"
+  }
+]
