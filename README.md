@@ -17,6 +17,7 @@ process.
 * [Deployment](#deployment)
   * [Local](#local)
   * [Cloud](#cloud)
+* [Destruction](#destruction)
 * [Contributing](#contributing)
 
 ## Getting Started
