@@ -25,7 +25,7 @@ The example project was designed around the [Databricks Lakehouse](https://www.d
 architecture. A schematic of the reference architecture is shown below:
 
 <div style="text-align: center">
-  <img src="https://github.com/databricks-industry-solutions/dlt-insurance-claims/blob/main/assets/images/reference_architecture.png?raw=true" alt="Reference Architecture" width="80%">
+  <img src="https://github.com/databricks-industry-solutions/dlt-insurance-claims/blob/main/assets/images/reference_architecture.png?raw=true" alt="Reference Architecture" width="100%">
 </div>
 
 The core architecture comprises four key layers: the data sources, an ingestion plan, the data processing layer, and 
@@ -45,7 +45,7 @@ The technical infrastructure for this project relies on services from four provi
 [Databricks](https://www.databricks.com/). The schematic for the technical architecture is shown below:
 
 <div style="text-align: center">
-  <img src="https://github.com/databricks-industry-solutions/dlt-insurance-claims/blob/main/assets/images/infrastructure_architecture.png?raw=true" alt="Reference Architecture" width="80%">
+  <img src="https://github.com/databricks-industry-solutions/dlt-insurance-claims/blob/main/assets/images/infrastructure_architecture.png?raw=true" alt="Reference Architecture" width="100%">
 </div>
 
 **NOTE**: Databricks supports all three major cloud providers. While the example project is built using services from
